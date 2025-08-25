@@ -1,0 +1,12 @@
+{
+  "name": "project_camp_backend",
+  "version": "1.0.0",
+  "description": "a project management application !",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "srajan gupta",
+  "license": "ISC"
+}
