@@ -1,1 +1,46 @@
 node_modules , .env  
+# Ignore node_modules
+node_modules
+
+# Build output
+dist
+build
+out
+
+# Dependency directories
+bower_components
+.pnp
+.pnp.js
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Lock files (optional, since they shouldn’t be edited)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Coverage and test output
+coverage
+.vscode
+*.snap
+
+# Ignore specific config files if you want to format manually
+*.config.js
+*.config.cjs
+*.config.mjs
+
+# Public assets
+public/**/*.png
+public/**/*.jpg
+public/**/*.svg
+public/**/*.ico
+
+# Ignore generated files
+*.min.js
+*.min.css
